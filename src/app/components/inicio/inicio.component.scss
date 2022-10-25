@@ -1,0 +1,58 @@
+/* h1,h5{
+    text-align: center;
+}
+.container-principal{
+    background:url(https://enaloc.mx/wp-content/uploads/2022/01/new_fondo.jpg);
+    min-height: calc(100vh - 80px  - 60px);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-presentacion, .container-principal{
+    color: white;
+}
+
+.btnSlider{
+    display: grid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    color: #FFF;
+    font-size: 12pt;
+    font-family: 'arial';
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    border: 1px solid #CCC;
+    background: rgba(37, 40, 80, 0.55);
+    border-radius: 31px;
+    text-decoration: none;
+    transition: .5s all;
+    
+}
+.btnSlider:hover{
+    background: #111;
+    border: 1px solid #111;
+}
+ */
+
+ .blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+ 
