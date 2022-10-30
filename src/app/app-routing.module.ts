@@ -8,7 +8,7 @@ import { PowerTeensComponent } from './components/power-teens/power-teens.compon
 import { SesionesOnlineComponent } from './components/sesiones-online/sesiones-online.component';
 
 const routes: Routes = [
-  {path:'', pathMatch:'full', redirectTo:'home'},
+  {path:'', pathMatch:'full', redirectTo:'inicio'},
   {path:'inicio', component: InicioComponent},
   {path:'actuacion-doblaje', component: ActuacionDoblajeComponent},
   {path:'sesiones-online', component: SesionesOnlineComponent},
